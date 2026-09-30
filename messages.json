@@ -1,0 +1,16 @@
+[
+  {
+    "nome": "João Silva",
+    "telefone": "5511999999999",
+    "mensagens": [
+      {
+        "tipo": "cliente",
+        "texto": "Tenho interesse"
+      },
+      {
+        "tipo": "atendente",
+        "texto": "Olá João, tudo bem?"
+      }
+    ]
+  }
+]

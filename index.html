@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>QGC TEAM</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="top">
+
+<div class="logo">
+
+<img src="logo-qgc.png.jpeg" class="logo-img">
+
+<span>QGC</span> TEAM
+
+</div>
+
+<div class="status">
+
+🟢 ONLINE
+
+</div>
+
+<div>
+
+Administrador
+
+</div>
+
+</header>
+
+<div class="container">
+
+<!-- MENU -->
+
+<section class="sidebar">
+
+<div class="menu">
+
+<button onclick="carregarConversas()">
+
+💬 Conversas
+
+</button>
+
+<button onclick="mostrarClientes()">
+
+👥 Clientes
+
+</button>
+
+<button onclick="mostrarListas()">
+
+📂 Listas
+
+</button>
+
+</div>
+
+<input
+
+id="pesquisa"
+
+type="text"
+
+placeholder="Pesquisar..."
+
+onkeyup="pesquisarClientes(this.value)"
+
+>
+
+<h2 id="title">
+
+💬 Conversas
+
+</h2>
+
+<div id="contact-list">
+
+</div>
+
+</section>
+
+<!-- CHAT -->
+
+<section class="chat">
+
+<div class="chat-header">
+
+<div class="avatar"
+
+id="chat-avatar">
+
+QG
+
+</div>
+
+<div>
+
+<h2
+
+id="chat-name">
+
+Nenhuma conversa
+
+</h2>
+
+</div>
+
+</div>
+
+<div
+
+id="messages"
+
+class="messages">
+
+</div>
+
+<div class="input-area">
+
+<input
+
+id="message"
+
+placeholder="Digite uma mensagem..."
+
+>
+
+<button
+
+onclick="sendMessage()">
+
+➤
+
+</button>
+
+</div>
+
+</section>
+
+<!-- FICHA -->
+
+<section class="client">
+
+<h2>
+
+📋 Ficha
+
+</h2>
+
+<div class="client-data">
+
+<h3>
+
+Empresa
+
+</h3>
+
+<p>
+
+CNPJ
+
+</p>
+
+<span
+
+id="cnpj">
+
+-
+
+</span>
+
+<p>
+
+Nome
+
+</p>
+
+<span
+
+id="empresa">
+
+-
+
+</span>
+
+<hr>
+
+<h3>
+
+Sócio Mestre
+
+</h3>
+
+<p>
+
+Nome
+
+</p>
+
+<span
+
+id="socio">
+
+-
+
+</span>
+
+<p>
+
+CPF
+
+</p>
+
+<span
+
+id="cpf">
+
+-
+
+</span>
+
+<p>
+
+Telefone
+
+</p>
+
+<span
+
+id="telefone">
+
+-
+
+</span>
+
+<hr>
+
+<h3>
+
+Outros Sócios
+
+</h3>
+
+<div
+
+id="outros-socios">
+
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html> 

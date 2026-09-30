@@ -1,0 +1,19 @@
+[
+    {
+        "telefone":"5511999999999",
+        "cnpj":"12.345.678/0001-90",
+        "empresa":"Empresa Teste LTDA",
+        "socio":"João da Silva",
+        "cpf":"123.456.789-00",
+        "nome":"João Silva"
+    },
+
+    {
+        "telefone":"5511988888888",
+        "cnpj":"98.765.432/0001-10",
+        "empresa":"Comercial Maria LTDA",
+        "socio":"Maria Oliveira",
+        "cpf":"987.654.321-00",
+        "nome":"Maria Oliveira"
+    }
+]

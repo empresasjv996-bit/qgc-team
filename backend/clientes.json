@@ -1,0 +1,1266 @@
+[
+  {
+    "empresa": {
+      "cnpj": "07430082000153",
+      "nome": "CRIALED PRODUCOES VISUAIS E EVENTOS EIRELI",
+      "capital": "200000"
+    },
+    "socio_mestre": {
+      "cpf": "22194163808",
+      "nome": "DANIEL LUNARDI SCUSSOLINO",
+      "renda": "13372.18",
+      "nascimento": "20/08/1980 - 45 Anos",
+      "telefone": "19997678030"
+    },
+    "socios": [
+      {
+        "cpf": "24556123844",
+        "nome": "YWASAKI REMOCAO DE ENTULHO LTDA",
+        "renda": "2155",
+        "nascimento": "14/10/1974 - 51 Anos",
+        "telefone": "19998373971"
+      },
+      {
+        "cpf": "35715371813",
+        "nome": "BROU BROUS EDITORACAO ELETRONICA LTDA",
+        "renda": "1155",
+        "nascimento": "27/02/1987 - 39 Anos",
+        "telefone": "11997109990"
+      },
+      {
+        "cpf": "49909002868",
+        "nome": "JOSE ALMIR GOMES ARAUJO SACOLAO",
+        "renda": "2800.87",
+        "nascimento": "15/11/1946 - 79 Anos",
+        "telefone": "11983088578"
+      },
+      {
+        "cpf": "56937636849",
+        "nome": "LERANS ENERGIA E PARTICIP LTDA",
+        "renda": "4144",
+        "nascimento": "31/05/1946 - 79 Anos",
+        "telefone": "11999754275"
+      },
+      {
+        "cpf": "37220801858",
+        "nome": "LEONARDO ALVES DE BRITO BASTOS",
+        "renda": "2200",
+        "nascimento": "06/07/1987 - 38 Anos",
+        "telefone": "12982320057"
+      },
+      {
+        "cpf": "25554705812",
+        "nome": "STELLA MARIS COSSI VENEZIANI",
+        "renda": "5736",
+        "nascimento": "09/09/1957 - 68 Anos",
+        "telefone": "NÃO ENCONTRADO"
+      },
+      {
+        "cpf": "38202585821",
+        "nome": "ALTA PERFORMANCE COM E SERV DE SINALIZACOES LTDA",
+        "renda": "1241",
+        "nascimento": "13/04/1989 - 36 Anos",
+        "telefone": "12988478835"
+      },
+      {
+        "cpf": "39684773838",
+        "nome": "JOYCE DE CASTRO",
+        "renda": "1620",
+        "nascimento": "30/05/1992 - 33 Anos",
+        "telefone": "11999490856"
+      },
+      {
+        "cpf": "31710718862",
+        "nome": "DEBORA REGINA VANSAN",
+        "renda": "9788.46",
+        "nascimento": "01/07/1983 - 42 Anos",
+        "telefone": "11999191415"
+      },
+      {
+        "cpf": "41261124804",
+        "nome": "NICHOLAS BEKIS ROCHA",
+        "renda": "1500",
+        "nascimento": "03/03/1996 - 29 Anos",
+        "telefone": "NÃO ENCONTRADO"
+      },
+      {
+        "cpf": "30518014886",
+        "nome": "BLOOD CINEMATOGRAFICA EIRELI",
+        "renda": "5543.49",
+        "nascimento": "02/08/1982 - 43 Anos",
+        "telefone": "11947887675"
+      },
+      {
+        "cpf": "38662976883",
+        "nome": "CONTROLE DISTRIB DE INFORMATICA E SEGURANCA ELETRONICA EIRELI",
+        "renda": "2329",
+        "nascimento": "15/06/1991 - 34 Anos",
+        "telefone": "11961785750"
+      },
+      {
+        "cpf": "08877914840",
+        "nome": "PREVIATO S FERRAMENTARIA DE PRECISAO LTDA",
+        "renda": "1306",
+        "nascimento": "16/02/1956 - 70 Anos",
+        "telefone": "11964320197"
+      },
+      {
+        "cpf": "14042578888",
+        "nome": "GILBERTO LOURENCO DA SILVA",
+        "renda": "2316",
+        "nascimento": "10/02/1973 - 53 Anos",
+        "telefone": "11999503629"
+      },
+      {
+        "cpf": "16867140840",
+        "nome": "MYRIAM VIRGINIA PEREIRA PINTO",
+        "renda": "2152",
+        "nascimento": "21/10/1973 - 52 Anos",
+        "telefone": "11974778596"
+      },
+      {
+        "cpf": "14888706832",
+        "nome": "AURO MAT PARA CONSTRUCAO LTDA",
+        "renda": "4364.76",
+        "nascimento": "13/05/1975 - 50 Anos",
+        "telefone": "11986097824"
+      },
+      {
+        "cpf": "80353495891",
+        "nome": "VPL CONSULTORIA CORRETORA DE SEGUROS DE VIDA LTDA",
+        "renda": "4016",
+        "nascimento": "29/01/1955 - 71 Anos",
+        "telefone": "18997768666"
+      },
+      {
+        "cpf": "30924428813",
+        "nome": "SMARGE CABOS COM E SERV EM CABOS LTDA",
+        "renda": "13874",
+        "nascimento": "23/04/1984 - 41 Anos",
+        "telefone": "11999847521"
+      },
+      {
+        "cpf": "16762921876",
+        "nome": "CPA SERV ADMINISTRATIVOS EIRELI",
+        "renda": "2804",
+        "nascimento": "12/05/1970 - 55 Anos",
+        "telefone": "11959215657"
+      },
+      {
+        "cpf": "16347350807",
+        "nome": "EMEA 8 EMPREEND IMOBILIARIOS LTDA",
+        "renda": "1002",
+        "nascimento": "24/05/1973 - 52 Anos",
+        "telefone": "11988275030"
+      },
+      {
+        "cpf": "92846351872",
+        "nome": "SATURNO BALOES INFLAVEIS E MIDIAS LTDA",
+        "renda": "5655",
+        "nascimento": "21/06/1958 - 67 Anos",
+        "telefone": "11982779123"
+      },
+      {
+        "cpf": "29303698843",
+        "nome": "BENITO P CERAVOLO",
+        "renda": "4200",
+        "nascimento": "02/07/1946 - 79 Anos",
+        "telefone": "11952876139"
+      },
+      {
+        "cpf": "94293120815",
+        "nome": "OFFICINA CLUB COM E SERV EIRELI",
+        "renda": "990",
+        "nascimento": "29/04/1955 - 70 Anos",
+        "telefone": "85991483224"
+      },
+      {
+        "cpf": "36455302826",
+        "nome": "AMR LOCAD DE VANS LTDA",
+        "renda": "4306",
+        "nascimento": "04/02/1987 - 39 Anos",
+        "telefone": "11975918502"
+      },
+      {
+        "cpf": "06978598860",
+        "nome": "EJUNIOR PRESTACAO DE SERV EM INFORMATICA LTDA",
+        "renda": "3010.74",
+        "nascimento": "28/12/1950 - 75 Anos",
+        "telefone": "18997000259"
+      },
+      {
+        "cpf": "30657198862",
+        "nome": "V G PAULISTA EMPREEND IMOBILIARIOS LTDA",
+        "renda": "1101",
+        "nascimento": "31/01/1982 - 44 Anos",
+        "telefone": "11976054186"
+      },
+      {
+        "cpf": "00474928993",
+        "nome": "TAMMY NAGANO",
+        "renda": "8840",
+        "nascimento": "24/04/1991 - 34 Anos",
+        "telefone": "47988524811"
+      },
+      {
+        "cpf": "67180990825",
+        "nome": "YATARO NAGANO",
+        "renda": "3403",
+        "nascimento": "14/01/1951 - 75 Anos",
+        "telefone": "41991929293"
+      },
+      {
+        "cpf": "01593182970",
+        "nome": "JANDIRA YOSHICO GOTO NAGANO",
+        "renda": "954",
+        "nascimento": "18/07/1953 - 72 Anos",
+        "telefone": "41991913127"
+      },
+      {
+        "cpf": "00474927911",
+        "nome": "BELISA NAGANO",
+        "renda": "9755",
+        "nascimento": "07/03/1985 - 40 Anos",
+        "telefone": "47991104413"
+      },
+      {
+        "cpf": "66593247804",
+        "nome": "ASSAKA NAGANO INOMOTO",
+        "renda": "31753.47",
+        "nascimento": "10/11/1948 - 77 Anos",
+        "telefone": "14998109367"
+      },
+      {
+        "cpf": "12281460800",
+        "nome": "MARIA SIZUKA SHIOMI",
+        "renda": "1427",
+        "nascimento": "19/01/1945 - 81 Anos",
+        "telefone": "15997730089"
+      },
+      {
+        "cpf": "00063837935",
+        "nome": "LINCOLN KINZIRO NAGANO FILHO",
+        "renda": "12857",
+        "nascimento": "21/08/1979 - 46 Anos",
+        "telefone": "47991877701"
+      },
+      {
+        "cpf": "01526536943",
+        "nome": "XRACE CENTRO AUTOMOTIVO LTDA",
+        "renda": "4156",
+        "nascimento": "22/06/1977 - 48 Anos",
+        "telefone": "47997222922"
+      },
+      {
+        "cpf": "06927850864",
+        "nome": "TECHFIX COM DE PECAS E EQUIP MEDICO HOSPITALARES EIRELI",
+        "renda": "4448.24",
+        "nascimento": "16/03/1965 - 60 Anos",
+        "telefone": "11996382894"
+      },
+      {
+        "cpf": "94539731815",
+        "nome": "VALERIA MOTA BASTOS",
+        "renda": "2985",
+        "nascimento": "20/06/1954 - 71 Anos",
+        "telefone": "11999762393"
+      },
+      {
+        "cpf": "06028336807",
+        "nome": "USINAGEM E FERRAMENTARIA LUZ LUZ LTDA",
+        "renda": "15538",
+        "nascimento": "22/02/1960 - 66 Anos",
+        "telefone": "11992017889"
+      },
+      {
+        "cpf": "29154062861",
+        "nome": "CLAYTON RIBAS LUZ",
+        "renda": "1915",
+        "nascimento": "09/10/1979 - 46 Anos",
+        "telefone": "11997728993"
+      },
+      {
+        "cpf": "29822563809",
+        "nome": "MARCOS ROBERTO TONOSSU ESTACION LTDA",
+        "renda": "4406",
+        "nascimento": "20/03/1982 - 43 Anos",
+        "telefone": "11996168439"
+      },
+      {
+        "cpf": "11741380847",
+        "nome": "ROTAMIL SERV ADMINISTRATIVOS LTDA",
+        "renda": "6600.04",
+        "nascimento": "14/06/1971 - 54 Anos",
+        "telefone": "11972058761"
+      },
+      {
+        "cpf": "12865615820",
+        "nome": "COM DE GENEROS ALIMENTICIOS SAO BENEDITO LTDA",
+        "renda": "3549",
+        "nascimento": "25/12/1972 - 53 Anos",
+        "telefone": "14981159567"
+      },
+      {
+        "cpf": "09498421846",
+        "nome": "USIMAX SERV DE SERRALHERIA LTDA",
+        "renda": "2900",
+        "nascimento": "21/08/1969 - 56 Anos",
+        "telefone": "NÃO ENCONTRADO"
+      },
+      {
+        "cpf": "52305007868",
+        "nome": "HUMANITY TREINAMENTOS EMPRESARIAIS LTDA",
+        "renda": "4936",
+        "nascimento": "11/04/1952 - 73 Anos",
+        "telefone": "11962169809"
+      },
+      {
+        "cpf": "16279339807",
+        "nome": "JULIO CESAR NEVES PEREIRA",
+        "renda": "5638",
+        "nascimento": "03/07/1972 - 53 Anos",
+        "telefone": "13991029999"
+      },
+      {
+        "cpf": "38567942802",
+        "nome": "PINHEIRO CIA FUNILARIA AUTOMOTIVA LTDA",
+        "renda": "350",
+        "nascimento": "07/06/1990 - 35 Anos",
+        "telefone": "13991506161"
+      },
+      {
+        "cpf": "44911790857",
+        "nome": "AGOP ALEXANDRO SAMGOCHIAN KHERLAKIAN",
+        "renda": "1608",
+        "nascimento": "19/08/1998 - 27 Anos",
+        "telefone": "11959955949"
+      },
+      {
+        "cpf": "06055964848",
+        "nome": "M J POLIZEL INFORMATICA",
+        "renda": "3005.32",
+        "nascimento": "20/02/1961 - 65 Anos",
+        "telefone": "11948359999"
+      },
+      {
+        "cpf": "28951092810",
+        "nome": "COML AGRO BATISTA PRIMO LTDA",
+        "renda": "3514",
+        "nascimento": "28/01/1981 - 45 Anos",
+        "telefone": "11956672338"
+      },
+      {
+        "cpf": "02460654863",
+        "nome": "DAVILA D AVILA LTDA",
+        "renda": "800",
+        "nascimento": "30/06/1960 - 65 Anos",
+        "telefone": "19991623472"
+      },
+      {
+        "cpf": "36805466881",
+        "nome": "COMPASS COM DE MAT PARA PISOS EIRELI",
+        "renda": "2635",
+        "nascimento": "05/05/1988 - 37 Anos",
+        "telefone": "62999999999"
+      },
+      {
+        "cpf": "72780916915",
+        "nome": "ZHU SHIQI",
+        "renda": "3184",
+        "nascimento": "10/04/1965 - 60 Anos",
+        "telefone": "47992423100"
+      },
+      {
+        "cpf": "25455904876",
+        "nome": "BRUNA MORESCHI ACESSORIOS E SERV LTDA",
+        "renda": "4811.35",
+        "nascimento": "10/11/1949 - 76 Anos",
+        "telefone": "13997647411"
+      },
+      {
+        "cpf": "22158830816",
+        "nome": "QUARTZO COM DE MINERIOS LTDA",
+        "renda": "10179",
+        "nascimento": "14/05/1981 - 44 Anos",
+        "telefone": "11975551155"
+      },
+      {
+        "cpf": "35278903864",
+        "nome": "HELISUPPORT SERV AUXILIARES DO TRANSPORTE AEREO LTDA",
+        "renda": "1452",
+        "nascimento": "05/03/1992 - 33 Anos",
+        "telefone": "19996692343"
+      },
+      {
+        "cpf": "21645091880",
+        "nome": "TH SOM PROFISSIONAIS LTDA",
+        "renda": "1656",
+        "nascimento": "22/07/1981 - 44 Anos",
+        "telefone": "11999431407"
+      },
+      {
+        "cpf": "84564261800",
+        "nome": "RDG COURO LTDA",
+        "renda": "9804",
+        "nascimento": "10/03/1955 - 70 Anos",
+        "telefone": "11986441639"
+      },
+      {
+        "cpf": "39241897813",
+        "nome": "RAPHAEL FEITOSA TEIXEIRA",
+        "renda": "951",
+        "nascimento": "09/01/1991 - 35 Anos",
+        "telefone": "11981560666"
+      },
+      {
+        "cpf": "40800896866",
+        "nome": "AUTO POSTO SKINA ITALIANOS LTDA",
+        "renda": "821",
+        "nascimento": "27/10/1995 - 30 Anos",
+        "telefone": "11979594215"
+      },
+      {
+        "cpf": "06623207864",
+        "nome": "GABRIELLI COM DE RACOES LTDA",
+        "renda": "1966",
+        "nascimento": "03/12/1964 - 61 Anos",
+        "telefone": "11964681735"
+      },
+      {
+        "cpf": "25586479893",
+        "nome": "CENTRO DE FORMACAO DE CONDUTORES ESPINOSA LTDA",
+        "renda": "5431",
+        "nascimento": "25/08/1976 - 49 Anos",
+        "telefone": "11998291762"
+      },
+      {
+        "cpf": "11380967848",
+        "nome": "ADM SANTOS DUMONT EIRELI",
+        "renda": "8157",
+        "nascimento": "20/07/1970 - 55 Anos",
+        "telefone": "11997714919"
+      },
+      {
+        "cpf": "02829721888",
+        "nome": "DELTA PROJETOS E GERENCIAMENTO LTDA",
+        "renda": "2139",
+        "nascimento": "05/04/1940 - 85 Anos",
+        "telefone": "11998497613"
+      },
+      {
+        "cpf": "24996487836",
+        "nome": "EALA EMPREEND IMOBILIARIOS LTDA",
+        "renda": "26963",
+        "nascimento": "23/02/1977 - 49 Anos",
+        "telefone": "11982183525"
+      },
+      {
+        "cpf": "13189973806",
+        "nome": "ELIANA NARCHI ZAHR",
+        "renda": "7493.28",
+        "nascimento": "01/10/1947 - 78 Anos",
+        "telefone": "11999046872"
+      },
+      {
+        "cpf": "02920812866",
+        "nome": "CARG COM E SERV DE MANUT E REPARACAO EIRELI",
+        "renda": "7841.81",
+        "nascimento": "06/02/1956 - 70 Anos",
+        "telefone": "11999679669"
+      },
+      {
+        "cpf": "00748805869",
+        "nome": "QUICKFAST SOFTWARE HOUSE LTDA",
+        "renda": "7845",
+        "nascimento": "02/03/1959 - 67 Anos",
+        "telefone": "11968590616"
+      },
+      {
+        "cpf": "07634006882",
+        "nome": "SOSA MERCANTIL LOCACOES LTDA",
+        "renda": "5785",
+        "nascimento": "21/06/1965 - 60 Anos",
+        "telefone": "11978062188"
+      },
+      {
+        "cpf": "04602699685",
+        "nome": "MULT TECNICA EM ELETRODOMESTICOS LTDA",
+        "renda": "10286",
+        "nascimento": "22/03/1982 - 43 Anos",
+        "telefone": "37998618824"
+      },
+      {
+        "cpf": "19512453851",
+        "nome": "H S COM DE PECAS E SERV MECANICOS EIRELI",
+        "renda": "18928",
+        "nascimento": "08/06/1974 - 51 Anos",
+        "telefone": "11975455081"
+      },
+      {
+        "cpf": "32823364897",
+        "nome": "NOCTA CONSULTORIA E CORRETORA DE SEGUROS EIRELI",
+        "renda": "1533",
+        "nascimento": "18/03/1983 - 42 Anos",
+        "telefone": "11964118588"
+      },
+      {
+        "cpf": "55136699604",
+        "nome": "TAVOLA CONSULTORIA E CORRETAGEM DE SEGUROS LTDA",
+        "renda": "9392",
+        "nascimento": "01/08/1975 - 50 Anos",
+        "telefone": "11999501691"
+      },
+      {
+        "cpf": "21523017813",
+        "nome": "SERVCON COM E INSTAL DE MAT ELETRICOS E HIDRAULICOS LTDA",
+        "renda": "17180",
+        "nascimento": "02/03/1983 - 43 Anos",
+        "telefone": "19983929896"
+      },
+      {
+        "cpf": "06355792864",
+        "nome": "SEARLINI DEBONE TRANSP LTDA",
+        "renda": "954",
+        "nascimento": "31/08/1953 - 72 Anos",
+        "telefone": "11952406877"
+      },
+      {
+        "cpf": "77585089872",
+        "nome": "CENTRAL DE EMPREEND CAMINHO LTDA",
+        "renda": "4987.12",
+        "nascimento": "31/01/1957 - 69 Anos",
+        "telefone": "11978093934"
+      },
+      {
+        "cpf": "28369470807",
+        "nome": "ADRIANA RAMOS DA SILVA SCHIERZ",
+        "renda": "761",
+        "nascimento": "12/06/1970 - 55 Anos",
+        "telefone": "11972059714"
+      },
+      {
+        "cpf": "09327396871",
+        "nome": "ADERMIR RAMOS DA SILVA FILHO",
+        "renda": "38381",
+        "nascimento": "04/12/1962 - 63 Anos",
+        "telefone": "31988891776"
+      },
+      {
+        "cpf": "30795227884",
+        "nome": "CONIX EMPREEND IMOBILIARIOS LTDA",
+        "renda": "1620",
+        "nascimento": "10/01/1935 - 91 Anos",
+        "telefone": "11972051630"
+      },
+      {
+        "cpf": "04537392886",
+        "nome": "MINERVA SERV DE APOIO ADMINISTRATIVO EIRELI",
+        "renda": "6993.21",
+        "nascimento": "11/01/1963 - 63 Anos",
+        "telefone": "11955559110"
+      },
+      {
+        "cpf": "15125384852",
+        "nome": "TETRA BROS BAR E LANCHONETE LTDA",
+        "renda": "2550.59",
+        "nascimento": "05/04/1972 - 53 Anos",
+        "telefone": "11999538051"
+      },
+      {
+        "cpf": "13938728833",
+        "nome": "PESSOA MAT DE CONSTRUCAO LTDA",
+        "renda": "4790",
+        "nascimento": "03/03/1973 - 52 Anos",
+        "telefone": "19998971565"
+      },
+      {
+        "cpf": "28060764802",
+        "nome": "GUSTAVO AUGUSTO YOSHIDA",
+        "renda": "4128.77",
+        "nascimento": "11/10/1977 - 48 Anos",
+        "telefone": "11944447709"
+      },
+      {
+        "cpf": "00646311840",
+        "nome": "ATELIER YUTAKA TOYOTA MARCENARIA E SERRALHERIA ARTESANAL LTDA",
+        "renda": "3526.03",
+        "nascimento": "18/08/1936 - 89 Anos",
+        "telefone": "11991120690"
+      },
+      {
+        "cpf": "04519376866",
+        "nome": "KS INSTAL INDUSTRIAIS COM IMP E EXP LTDA",
+        "renda": "2160",
+        "nascimento": "01/12/1959 - 66 Anos",
+        "telefone": "11996110451"
+      },
+      {
+        "cpf": "52272001653",
+        "nome": "ALMEIDA COSTA PNEUS E TRANSP LTDA",
+        "renda": "3238",
+        "nascimento": "16/07/1963 - 62 Anos",
+        "telefone": "11997888455"
+      },
+      {
+        "cpf": "29884984824",
+        "nome": "EXECUTIVA MASTER PRESTADORA DE SERV DE TRANSP LTDA",
+        "renda": "3329",
+        "nascimento": "30/12/1976 - 49 Anos",
+        "telefone": "18997457551"
+      },
+      {
+        "cpf": "09989044813",
+        "nome": "ANELLI COM DE EMBALAGENS LTDA",
+        "renda": "1957",
+        "nascimento": "15/03/1967 - 58 Anos",
+        "telefone": "11991944266"
+      },
+      {
+        "cpf": "56649428868",
+        "nome": "MAIS ETIQUETAS ADESIVAS LTDA",
+        "renda": "2190",
+        "nascimento": "20/01/1943 - 83 Anos",
+        "telefone": "11941552007"
+      },
+      {
+        "cpf": "22390361846",
+        "nome": "DDS IND E COM DE MOVEIS E ESTOFADOS EIRELI",
+        "renda": "5078",
+        "nascimento": "25/09/1980 - 45 Anos",
+        "telefone": "11995058860"
+      }
+    ]
+  },
+  {
+    "empresa": {
+      "cnpj": "07430082000153",
+      "nome": "CRIALED PRODUCOES VISUAIS E EVENTOS EIRELI",
+      "capital": "200000"
+    },
+    "socio_mestre": {
+      "cpf": "22194163808",
+      "nome": "DANIEL LUNARDI SCUSSOLINO",
+      "renda": "13372.18",
+      "nascimento": "20/08/1980 - 45 Anos",
+      "telefone": "19997678030"
+    },
+    "socios": [
+      {
+        "cpf": "24556123844",
+        "nome": "YWASAKI REMOCAO DE ENTULHO LTDA",
+        "renda": "2155",
+        "nascimento": "14/10/1974 - 51 Anos",
+        "telefone": "19998373971"
+      },
+      {
+        "cpf": "35715371813",
+        "nome": "BROU BROUS EDITORACAO ELETRONICA LTDA",
+        "renda": "1155",
+        "nascimento": "27/02/1987 - 39 Anos",
+        "telefone": "11997109990"
+      },
+      {
+        "cpf": "49909002868",
+        "nome": "JOSE ALMIR GOMES ARAUJO SACOLAO",
+        "renda": "2800.87",
+        "nascimento": "15/11/1946 - 79 Anos",
+        "telefone": "11983088578"
+      },
+      {
+        "cpf": "56937636849",
+        "nome": "LERANS ENERGIA E PARTICIP LTDA",
+        "renda": "4144",
+        "nascimento": "31/05/1946 - 79 Anos",
+        "telefone": "11999754275"
+      },
+      {
+        "cpf": "37220801858",
+        "nome": "LEONARDO ALVES DE BRITO BASTOS",
+        "renda": "2200",
+        "nascimento": "06/07/1987 - 38 Anos",
+        "telefone": "12982320057"
+      },
+      {
+        "cpf": "25554705812",
+        "nome": "STELLA MARIS COSSI VENEZIANI",
+        "renda": "5736",
+        "nascimento": "09/09/1957 - 68 Anos",
+        "telefone": "NÃO ENCONTRADO"
+      },
+      {
+        "cpf": "38202585821",
+        "nome": "ALTA PERFORMANCE COM E SERV DE SINALIZACOES LTDA",
+        "renda": "1241",
+        "nascimento": "13/04/1989 - 36 Anos",
+        "telefone": "12988478835"
+      },
+      {
+        "cpf": "39684773838",
+        "nome": "JOYCE DE CASTRO",
+        "renda": "1620",
+        "nascimento": "30/05/1992 - 33 Anos",
+        "telefone": "11999490856"
+      },
+      {
+        "cpf": "31710718862",
+        "nome": "DEBORA REGINA VANSAN",
+        "renda": "9788.46",
+        "nascimento": "01/07/1983 - 42 Anos",
+        "telefone": "11999191415"
+      },
+      {
+        "cpf": "41261124804",
+        "nome": "NICHOLAS BEKIS ROCHA",
+        "renda": "1500",
+        "nascimento": "03/03/1996 - 29 Anos",
+        "telefone": "NÃO ENCONTRADO"
+      },
+      {
+        "cpf": "30518014886",
+        "nome": "BLOOD CINEMATOGRAFICA EIRELI",
+        "renda": "5543.49",
+        "nascimento": "02/08/1982 - 43 Anos",
+        "telefone": "11947887675"
+      },
+      {
+        "cpf": "38662976883",
+        "nome": "CONTROLE DISTRIB DE INFORMATICA E SEGURANCA ELETRONICA EIRELI",
+        "renda": "2329",
+        "nascimento": "15/06/1991 - 34 Anos",
+        "telefone": "11961785750"
+      },
+      {
+        "cpf": "08877914840",
+        "nome": "PREVIATO S FERRAMENTARIA DE PRECISAO LTDA",
+        "renda": "1306",
+        "nascimento": "16/02/1956 - 70 Anos",
+        "telefone": "11964320197"
+      },
+      {
+        "cpf": "14042578888",
+        "nome": "GILBERTO LOURENCO DA SILVA",
+        "renda": "2316",
+        "nascimento": "10/02/1973 - 53 Anos",
+        "telefone": "11999503629"
+      },
+      {
+        "cpf": "16867140840",
+        "nome": "MYRIAM VIRGINIA PEREIRA PINTO",
+        "renda": "2152",
+        "nascimento": "21/10/1973 - 52 Anos",
+        "telefone": "11974778596"
+      },
+      {
+        "cpf": "14888706832",
+        "nome": "AURO MAT PARA CONSTRUCAO LTDA",
+        "renda": "4364.76",
+        "nascimento": "13/05/1975 - 50 Anos",
+        "telefone": "11986097824"
+      },
+      {
+        "cpf": "80353495891",
+        "nome": "VPL CONSULTORIA CORRETORA DE SEGUROS DE VIDA LTDA",
+        "renda": "4016",
+        "nascimento": "29/01/1955 - 71 Anos",
+        "telefone": "18997768666"
+      },
+      {
+        "cpf": "30924428813",
+        "nome": "SMARGE CABOS COM E SERV EM CABOS LTDA",
+        "renda": "13874",
+        "nascimento": "23/04/1984 - 41 Anos",
+        "telefone": "11999847521"
+      },
+      {
+        "cpf": "16762921876",
+        "nome": "CPA SERV ADMINISTRATIVOS EIRELI",
+        "renda": "2804",
+        "nascimento": "12/05/1970 - 55 Anos",
+        "telefone": "11959215657"
+      },
+      {
+        "cpf": "16347350807",
+        "nome": "EMEA 8 EMPREEND IMOBILIARIOS LTDA",
+        "renda": "1002",
+        "nascimento": "24/05/1973 - 52 Anos",
+        "telefone": "11988275030"
+      },
+      {
+        "cpf": "92846351872",
+        "nome": "SATURNO BALOES INFLAVEIS E MIDIAS LTDA",
+        "renda": "5655",
+        "nascimento": "21/06/1958 - 67 Anos",
+        "telefone": "11982779123"
+      },
+      {
+        "cpf": "29303698843",
+        "nome": "BENITO P CERAVOLO",
+        "renda": "4200",
+        "nascimento": "02/07/1946 - 79 Anos",
+        "telefone": "11952876139"
+      },
+      {
+        "cpf": "94293120815",
+        "nome": "OFFICINA CLUB COM E SERV EIRELI",
+        "renda": "990",
+        "nascimento": "29/04/1955 - 70 Anos",
+        "telefone": "85991483224"
+      },
+      {
+        "cpf": "36455302826",
+        "nome": "AMR LOCAD DE VANS LTDA",
+        "renda": "4306",
+        "nascimento": "04/02/1987 - 39 Anos",
+        "telefone": "11975918502"
+      },
+      {
+        "cpf": "06978598860",
+        "nome": "EJUNIOR PRESTACAO DE SERV EM INFORMATICA LTDA",
+        "renda": "3010.74",
+        "nascimento": "28/12/1950 - 75 Anos",
+        "telefone": "18997000259"
+      },
+      {
+        "cpf": "30657198862",
+        "nome": "V G PAULISTA EMPREEND IMOBILIARIOS LTDA",
+        "renda": "1101",
+        "nascimento": "31/01/1982 - 44 Anos",
+        "telefone": "11976054186"
+      },
+      {
+        "cpf": "00474928993",
+        "nome": "TAMMY NAGANO",
+        "renda": "8840",
+        "nascimento": "24/04/1991 - 34 Anos",
+        "telefone": "47988524811"
+      },
+      {
+        "cpf": "67180990825",
+        "nome": "YATARO NAGANO",
+        "renda": "3403",
+        "nascimento": "14/01/1951 - 75 Anos",
+        "telefone": "41991929293"
+      },
+      {
+        "cpf": "01593182970",
+        "nome": "JANDIRA YOSHICO GOTO NAGANO",
+        "renda": "954",
+        "nascimento": "18/07/1953 - 72 Anos",
+        "telefone": "41991913127"
+      },
+      {
+        "cpf": "00474927911",
+        "nome": "BELISA NAGANO",
+        "renda": "9755",
+        "nascimento": "07/03/1985 - 40 Anos",
+        "telefone": "47991104413"
+      },
+      {
+        "cpf": "66593247804",
+        "nome": "ASSAKA NAGANO INOMOTO",
+        "renda": "31753.47",
+        "nascimento": "10/11/1948 - 77 Anos",
+        "telefone": "14998109367"
+      },
+      {
+        "cpf": "12281460800",
+        "nome": "MARIA SIZUKA SHIOMI",
+        "renda": "1427",
+        "nascimento": "19/01/1945 - 81 Anos",
+        "telefone": "15997730089"
+      },
+      {
+        "cpf": "00063837935",
+        "nome": "LINCOLN KINZIRO NAGANO FILHO",
+        "renda": "12857",
+        "nascimento": "21/08/1979 - 46 Anos",
+        "telefone": "47991877701"
+      },
+      {
+        "cpf": "01526536943",
+        "nome": "XRACE CENTRO AUTOMOTIVO LTDA",
+        "renda": "4156",
+        "nascimento": "22/06/1977 - 48 Anos",
+        "telefone": "47997222922"
+      },
+      {
+        "cpf": "06927850864",
+        "nome": "TECHFIX COM DE PECAS E EQUIP MEDICO HOSPITALARES EIRELI",
+        "renda": "4448.24",
+        "nascimento": "16/03/1965 - 60 Anos",
+        "telefone": "11996382894"
+      },
+      {
+        "cpf": "94539731815",
+        "nome": "VALERIA MOTA BASTOS",
+        "renda": "2985",
+        "nascimento": "20/06/1954 - 71 Anos",
+        "telefone": "11999762393"
+      },
+      {
+        "cpf": "06028336807",
+        "nome": "USINAGEM E FERRAMENTARIA LUZ LUZ LTDA",
+        "renda": "15538",
+        "nascimento": "22/02/1960 - 66 Anos",
+        "telefone": "11992017889"
+      },
+      {
+        "cpf": "29154062861",
+        "nome": "CLAYTON RIBAS LUZ",
+        "renda": "1915",
+        "nascimento": "09/10/1979 - 46 Anos",
+        "telefone": "11997728993"
+      },
+      {
+        "cpf": "29822563809",
+        "nome": "MARCOS ROBERTO TONOSSU ESTACION LTDA",
+        "renda": "4406",
+        "nascimento": "20/03/1982 - 43 Anos",
+        "telefone": "11996168439"
+      },
+      {
+        "cpf": "11741380847",
+        "nome": "ROTAMIL SERV ADMINISTRATIVOS LTDA",
+        "renda": "6600.04",
+        "nascimento": "14/06/1971 - 54 Anos",
+        "telefone": "11972058761"
+      },
+      {
+        "cpf": "12865615820",
+        "nome": "COM DE GENEROS ALIMENTICIOS SAO BENEDITO LTDA",
+        "renda": "3549",
+        "nascimento": "25/12/1972 - 53 Anos",
+        "telefone": "14981159567"
+      },
+      {
+        "cpf": "09498421846",
+        "nome": "USIMAX SERV DE SERRALHERIA LTDA",
+        "renda": "2900",
+        "nascimento": "21/08/1969 - 56 Anos",
+        "telefone": "NÃO ENCONTRADO"
+      },
+      {
+        "cpf": "52305007868",
+        "nome": "HUMANITY TREINAMENTOS EMPRESARIAIS LTDA",
+        "renda": "4936",
+        "nascimento": "11/04/1952 - 73 Anos",
+        "telefone": "11962169809"
+      },
+      {
+        "cpf": "16279339807",
+        "nome": "JULIO CESAR NEVES PEREIRA",
+        "renda": "5638",
+        "nascimento": "03/07/1972 - 53 Anos",
+        "telefone": "13991029999"
+      },
+      {
+        "cpf": "38567942802",
+        "nome": "PINHEIRO CIA FUNILARIA AUTOMOTIVA LTDA",
+        "renda": "350",
+        "nascimento": "07/06/1990 - 35 Anos",
+        "telefone": "13991506161"
+      },
+      {
+        "cpf": "44911790857",
+        "nome": "AGOP ALEXANDRO SAMGOCHIAN KHERLAKIAN",
+        "renda": "1608",
+        "nascimento": "19/08/1998 - 27 Anos",
+        "telefone": "11959955949"
+      },
+      {
+        "cpf": "06055964848",
+        "nome": "M J POLIZEL INFORMATICA",
+        "renda": "3005.32",
+        "nascimento": "20/02/1961 - 65 Anos",
+        "telefone": "11948359999"
+      },
+      {
+        "cpf": "28951092810",
+        "nome": "COML AGRO BATISTA PRIMO LTDA",
+        "renda": "3514",
+        "nascimento": "28/01/1981 - 45 Anos",
+        "telefone": "11956672338"
+      },
+      {
+        "cpf": "02460654863",
+        "nome": "DAVILA D AVILA LTDA",
+        "renda": "800",
+        "nascimento": "30/06/1960 - 65 Anos",
+        "telefone": "19991623472"
+      },
+      {
+        "cpf": "36805466881",
+        "nome": "COMPASS COM DE MAT PARA PISOS EIRELI",
+        "renda": "2635",
+        "nascimento": "05/05/1988 - 37 Anos",
+        "telefone": "62999999999"
+      },
+      {
+        "cpf": "72780916915",
+        "nome": "ZHU SHIQI",
+        "renda": "3184",
+        "nascimento": "10/04/1965 - 60 Anos",
+        "telefone": "47992423100"
+      },
+      {
+        "cpf": "25455904876",
+        "nome": "BRUNA MORESCHI ACESSORIOS E SERV LTDA",
+        "renda": "4811.35",
+        "nascimento": "10/11/1949 - 76 Anos",
+        "telefone": "13997647411"
+      },
+      {
+        "cpf": "22158830816",
+        "nome": "QUARTZO COM DE MINERIOS LTDA",
+        "renda": "10179",
+        "nascimento": "14/05/1981 - 44 Anos",
+        "telefone": "11975551155"
+      },
+      {
+        "cpf": "35278903864",
+        "nome": "HELISUPPORT SERV AUXILIARES DO TRANSPORTE AEREO LTDA",
+        "renda": "1452",
+        "nascimento": "05/03/1992 - 33 Anos",
+        "telefone": "19996692343"
+      },
+      {
+        "cpf": "21645091880",
+        "nome": "TH SOM PROFISSIONAIS LTDA",
+        "renda": "1656",
+        "nascimento": "22/07/1981 - 44 Anos",
+        "telefone": "11999431407"
+      },
+      {
+        "cpf": "84564261800",
+        "nome": "RDG COURO LTDA",
+        "renda": "9804",
+        "nascimento": "10/03/1955 - 70 Anos",
+        "telefone": "11986441639"
+      },
+      {
+        "cpf": "39241897813",
+        "nome": "RAPHAEL FEITOSA TEIXEIRA",
+        "renda": "951",
+        "nascimento": "09/01/1991 - 35 Anos",
+        "telefone": "11981560666"
+      },
+      {
+        "cpf": "40800896866",
+        "nome": "AUTO POSTO SKINA ITALIANOS LTDA",
+        "renda": "821",
+        "nascimento": "27/10/1995 - 30 Anos",
+        "telefone": "11979594215"
+      },
+      {
+        "cpf": "06623207864",
+        "nome": "GABRIELLI COM DE RACOES LTDA",
+        "renda": "1966",
+        "nascimento": "03/12/1964 - 61 Anos",
+        "telefone": "11964681735"
+      },
+      {
+        "cpf": "25586479893",
+        "nome": "CENTRO DE FORMACAO DE CONDUTORES ESPINOSA LTDA",
+        "renda": "5431",
+        "nascimento": "25/08/1976 - 49 Anos",
+        "telefone": "11998291762"
+      },
+      {
+        "cpf": "11380967848",
+        "nome": "ADM SANTOS DUMONT EIRELI",
+        "renda": "8157",
+        "nascimento": "20/07/1970 - 55 Anos",
+        "telefone": "11997714919"
+      },
+      {
+        "cpf": "02829721888",
+        "nome": "DELTA PROJETOS E GERENCIAMENTO LTDA",
+        "renda": "2139",
+        "nascimento": "05/04/1940 - 85 Anos",
+        "telefone": "11998497613"
+      },
+      {
+        "cpf": "24996487836",
+        "nome": "EALA EMPREEND IMOBILIARIOS LTDA",
+        "renda": "26963",
+        "nascimento": "23/02/1977 - 49 Anos",
+        "telefone": "11982183525"
+      },
+      {
+        "cpf": "13189973806",
+        "nome": "ELIANA NARCHI ZAHR",
+        "renda": "7493.28",
+        "nascimento": "01/10/1947 - 78 Anos",
+        "telefone": "11999046872"
+      },
+      {
+        "cpf": "02920812866",
+        "nome": "CARG COM E SERV DE MANUT E REPARACAO EIRELI",
+        "renda": "7841.81",
+        "nascimento": "06/02/1956 - 70 Anos",
+        "telefone": "11999679669"
+      },
+      {
+        "cpf": "00748805869",
+        "nome": "QUICKFAST SOFTWARE HOUSE LTDA",
+        "renda": "7845",
+        "nascimento": "02/03/1959 - 67 Anos",
+        "telefone": "11968590616"
+      },
+      {
+        "cpf": "07634006882",
+        "nome": "SOSA MERCANTIL LOCACOES LTDA",
+        "renda": "5785",
+        "nascimento": "21/06/1965 - 60 Anos",
+        "telefone": "11978062188"
+      },
+      {
+        "cpf": "04602699685",
+        "nome": "MULT TECNICA EM ELETRODOMESTICOS LTDA",
+        "renda": "10286",
+        "nascimento": "22/03/1982 - 43 Anos",
+        "telefone": "37998618824"
+      },
+      {
+        "cpf": "19512453851",
+        "nome": "H S COM DE PECAS E SERV MECANICOS EIRELI",
+        "renda": "18928",
+        "nascimento": "08/06/1974 - 51 Anos",
+        "telefone": "11975455081"
+      },
+      {
+        "cpf": "32823364897",
+        "nome": "NOCTA CONSULTORIA E CORRETORA DE SEGUROS EIRELI",
+        "renda": "1533",
+        "nascimento": "18/03/1983 - 42 Anos",
+        "telefone": "11964118588"
+      },
+      {
+        "cpf": "55136699604",
+        "nome": "TAVOLA CONSULTORIA E CORRETAGEM DE SEGUROS LTDA",
+        "renda": "9392",
+        "nascimento": "01/08/1975 - 50 Anos",
+        "telefone": "11999501691"
+      },
+      {
+        "cpf": "21523017813",
+        "nome": "SERVCON COM E INSTAL DE MAT ELETRICOS E HIDRAULICOS LTDA",
+        "renda": "17180",
+        "nascimento": "02/03/1983 - 43 Anos",
+        "telefone": "19983929896"
+      },
+      {
+        "cpf": "06355792864",
+        "nome": "SEARLINI DEBONE TRANSP LTDA",
+        "renda": "954",
+        "nascimento": "31/08/1953 - 72 Anos",
+        "telefone": "11952406877"
+      },
+      {
+        "cpf": "77585089872",
+        "nome": "CENTRAL DE EMPREEND CAMINHO LTDA",
+        "renda": "4987.12",
+        "nascimento": "31/01/1957 - 69 Anos",
+        "telefone": "11978093934"
+      },
+      {
+        "cpf": "28369470807",
+        "nome": "ADRIANA RAMOS DA SILVA SCHIERZ",
+        "renda": "761",
+        "nascimento": "12/06/1970 - 55 Anos",
+        "telefone": "11972059714"
+      },
+      {
+        "cpf": "09327396871",
+        "nome": "ADERMIR RAMOS DA SILVA FILHO",
+        "renda": "38381",
+        "nascimento": "04/12/1962 - 63 Anos",
+        "telefone": "31988891776"
+      },
+      {
+        "cpf": "30795227884",
+        "nome": "CONIX EMPREEND IMOBILIARIOS LTDA",
+        "renda": "1620",
+        "nascimento": "10/01/1935 - 91 Anos",
+        "telefone": "11972051630"
+      },
+      {
+        "cpf": "04537392886",
+        "nome": "MINERVA SERV DE APOIO ADMINISTRATIVO EIRELI",
+        "renda": "6993.21",
+        "nascimento": "11/01/1963 - 63 Anos",
+        "telefone": "11955559110"
+      },
+      {
+        "cpf": "15125384852",
+        "nome": "TETRA BROS BAR E LANCHONETE LTDA",
+        "renda": "2550.59",
+        "nascimento": "05/04/1972 - 53 Anos",
+        "telefone": "11999538051"
+      },
+      {
+        "cpf": "13938728833",
+        "nome": "PESSOA MAT DE CONSTRUCAO LTDA",
+        "renda": "4790",
+        "nascimento": "03/03/1973 - 52 Anos",
+        "telefone": "19998971565"
+      },
+      {
+        "cpf": "28060764802",
+        "nome": "GUSTAVO AUGUSTO YOSHIDA",
+        "renda": "4128.77",
+        "nascimento": "11/10/1977 - 48 Anos",
+        "telefone": "11944447709"
+      },
+      {
+        "cpf": "00646311840",
+        "nome": "ATELIER YUTAKA TOYOTA MARCENARIA E SERRALHERIA ARTESANAL LTDA",
+        "renda": "3526.03",
+        "nascimento": "18/08/1936 - 89 Anos",
+        "telefone": "11991120690"
+      },
+      {
+        "cpf": "04519376866",
+        "nome": "KS INSTAL INDUSTRIAIS COM IMP E EXP LTDA",
+        "renda": "2160",
+        "nascimento": "01/12/1959 - 66 Anos",
+        "telefone": "11996110451"
+      },
+      {
+        "cpf": "52272001653",
+        "nome": "ALMEIDA COSTA PNEUS E TRANSP LTDA",
+        "renda": "3238",
+        "nascimento": "16/07/1963 - 62 Anos",
+        "telefone": "11997888455"
+      },
+      {
+        "cpf": "29884984824",
+        "nome": "EXECUTIVA MASTER PRESTADORA DE SERV DE TRANSP LTDA",
+        "renda": "3329",
+        "nascimento": "30/12/1976 - 49 Anos",
+        "telefone": "18997457551"
+      },
+      {
+        "cpf": "09989044813",
+        "nome": "ANELLI COM DE EMBALAGENS LTDA",
+        "renda": "1957",
+        "nascimento": "15/03/1967 - 58 Anos",
+        "telefone": "11991944266"
+      },
+      {
+        "cpf": "56649428868",
+        "nome": "MAIS ETIQUETAS ADESIVAS LTDA",
+        "renda": "2190",
+        "nascimento": "20/01/1943 - 83 Anos",
+        "telefone": "11941552007"
+      },
+      {
+        "cpf": "22390361846",
+        "nome": "DDS IND E COM DE MOVEIS E ESTOFADOS EIRELI",
+        "renda": "5078",
+        "nascimento": "25/09/1980 - 45 Anos",
+        "telefone": "11995058860"
+      }
+    ]
+  }
+]
