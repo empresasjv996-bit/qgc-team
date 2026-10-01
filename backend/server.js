@@ -16,27 +16,19 @@ app.use(cors());
 // WEBHOOK SENDSEVEN
 // ======================================
 
-app.post("/webhook", async (req, res) => {
+app.all("/webhook", (req, res) => {
 
-    try {
+    console.log("==================================");
+    console.log("METHOD:", req.method);
+    console.log("URL:", req.originalUrl);
+    console.log("QUERY:", JSON.stringify(req.query, null, 2));
+    console.log("HEADERS:", JSON.stringify(req.headers, null, 2));
+    console.log("BODY:", JSON.stringify(req.body, null, 2));
+    console.log("==================================");
 
-        console.log("========== WEBHOOK ==========");
-        console.log(JSON.stringify(req.body, null, 2));
+    res.status(200).send("OK");
 
-        res.status(200).json({
-            sucesso: true
-        });
 
-    } catch (erro) {
-
-        console.error(erro);
-
-        res.status(500).json({
-            sucesso: false,
-            erro: erro.message
-        });
-
-    }
 
 });
 app.use(express.json());
