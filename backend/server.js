@@ -1,3 +1,5 @@
+require("dotenv").config();
+console.log("SENDSEVEN_WEBHOOK_SECRET =", process.env.SENDSEVEN_WEBHOOK_SECRET);
 const express = require("express");
 const cors = require("cors");
 const multer = require("multer");
