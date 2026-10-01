@@ -450,13 +450,26 @@ mensagem:err.message
 //========================================
 // WEBHOOK
 //========================================
-    app.post("/webhook", (req, res) => {
+app.post("/webhook", (req, res) => {
 
+    console.log("================================");
     console.log("EVENT:", req.headers["x-sendseven-event"]);
+    console.log("HEADERS:", req.headers);
     console.log("BODY:", req.body);
+    console.log("================================");
 
+    // Verificação inicial
+    if (req.headers["x-sendseven-event"] === "verification") {
+
+        return res.status(200).json({
+            success: true
+        });
+
+    }
+
+    // Eventos normais
     return res.status(200).json({
-        success: true
+        received: true
     });
 
 });
