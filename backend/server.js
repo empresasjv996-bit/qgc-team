@@ -450,51 +450,14 @@ mensagem:err.message
 //========================================
 // WEBHOOK
 //========================================
-app.post("/webhook", (req, res) => {
+    app.post("/webhook", (req, res) => {
 
     console.log("EVENT:", req.headers["x-sendseven-event"]);
+    console.log("BODY:", req.body);
 
-    if (req.headers["x-sendseven-event"] === "verification") {
-
-        return res.status(200).json({
-            success: true
-        });
-
-    }
-
-    console.log(req.body);
-
-    return res.sendStatus(200);
-
-});
-//========================================
-// LISTAR CONVERSAS
-//========================================
-
-app.get("/conversas",(req,res)=>{
-
-    const lista = db.prepare(`
-
-        SELECT
-            c.id,
-            c.telefone,
-            c.ultima_mensagem,
-            c.updated_at,
-
-            cl.empresa,
-            cl.nome_socio_mestre
-
-        FROM conversas c
-
-        LEFT JOIN clientes cl
-
-        ON c.cliente_id = cl.id
-
-        ORDER BY c.updated_at DESC
-
-    `).all();
-
-    res.json(lista);
+    return res.status(200).json({
+        success: true
+    });
 
 });
 
