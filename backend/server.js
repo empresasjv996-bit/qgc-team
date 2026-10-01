@@ -450,105 +450,21 @@ mensagem:err.message
 //========================================
 // WEBHOOK
 //========================================
+app.post("/webhook", (req, res) => {
 
-app.post(
-"/webhook",
-(req,res)=>{
+    console.log("EVENT:", req.headers["x-sendseven-event"]);
 
-try{
+    if (req.headers["x-sendseven-event"] === "verification") {
 
-const body=req.body;
+        return res.status(200).json({
+            success: true
+        });
 
-const telefone=
+    }
 
-body.telefone ||
-body.phone ||
-body.number ||
-body.from ||
-"";
+    console.log(req.body);
 
-const mensagem=
-
-body.mensagem ||
-body.message ||
-body.text ||
-"";
-
-const cliente=
-localizarClientePorTelefone(
-telefone
-);
-
-let conversa=
-localizarConversa(
-telefone
-);
-
-let conversaId;
-
-if(!conversa){
-
-conversaId=
-criarConversa(
-
-telefone,
-
-cliente ? cliente.id : null,
-
-mensagem
-
-);
-
-}else{
-
-conversaId=
-conversa.id;
-
-atualizarConversa(
-
-conversa.id,
-
-mensagem
-
-);
-
-}
-
-salvarMensagem(
-
-conversaId,
-
-"cliente",
-
-mensagem
-
-);
-
-res.json({
-
-sucesso:true,
-
-telefone,
-
-cliente,
-
-conversa:conversaId
-
-});
-
-}catch(err){
-
-console.log(err);
-
-res.status(500).json({
-
-erro:true,
-
-mensagem:err.message
-
-});
-
-}
+    return res.sendStatus(200);
 
 });
 //========================================
