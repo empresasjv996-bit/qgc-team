@@ -432,6 +432,9 @@ mensagem:err.message
 //========================================
 app.post("/webhook", (req, res) => {
 
+console.log("WEBHOOK CHAMOU");
+
+
     const payload = req.body;
 
     try {
@@ -441,9 +444,15 @@ app.post("/webhook", (req, res) => {
            const contato = payload.data.contact;
 const mensagem = payload.data.message;
 
-// Procura conversa existente
+console.log("ANTES DO SELECT");
+
 let conversa = db.prepare(`
     SELECT *
+    FROM conversas
+    WHERE telefone = ?
+`).get(contato.phone);
+
+console.log("DEPOIS DO SELECT");
     FROM conversas
     WHERE telefone = ?
 `).get(contato.phone);
@@ -468,6 +477,7 @@ if (!conversa) {
         "aberta",
         new Date().toISOString()
     );
+    console.log("CONVERSA CRIADA");
 
     conversa = {
         id: info.lastInsertRowid
@@ -505,8 +515,8 @@ db.prepare(`
     mensagem.text,
     mensagem.created_at
 );
+console.log("MENSAGEM SALVA");
 
-console.log("Mensagem salva!");
 
         }
 
