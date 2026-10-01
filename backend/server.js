@@ -6,10 +6,12 @@ const multer = require("multer");
 const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
-const { v4: uuid } = require("uuid");
 
-const db = require("./database");
-const parserFicha = require("./parser");
+
+const upload = multer({
+    dest: path.join(__dirname, "uploads")
+});
+
 
 const app = express();
 
