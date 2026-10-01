@@ -17,36 +17,24 @@ app.use(cors());
 // ======================================
 // WEBHOOK SENDSEVEN
 // ======================================
-
 app.all("/webhook", (req, res) => {
 
     console.log("==================================");
     console.log("METHOD:", req.method);
     console.log("URL:", req.originalUrl);
     console.log("QUERY:", JSON.stringify(req.query, null, 2));
-    
-    
+
     console.log("HEADERS:", JSON.stringify(req.headers, null, 2));
     console.dir(req.headers, { depth: null });
 
     console.log("BODY:", JSON.stringify(req.body, null, 2));
     console.dir(req.body, { depth: null });
 
-    
-    
     console.log("==================================");
 
     res.status(200).send("OK");
 
-
-
 });
-app.use(express.json());
-
-const upload = multer({
-    dest: path.join(__dirname, "uploads")
-});
-
 //========================================
 // CONFIG
 //========================================
@@ -454,22 +442,16 @@ mensagem:err.message
 //========================================
 app.post("/webhook", (req, res) => {
 
-    console.log(">>> WEBHOOK EXECUTADO <<<");
+    const event = req.headers["x-sendseven-event"];
+
+    console.log("EVENT:", event);
+    console.log("BODY:", req.body);
 
     return res.status(200).json({
-        success: true,
-        status: "ok",
-        timestamp: Date.now()
+        success: true
     });
 
 });
-    // Eventos normais
-    return res.status(200).json({
-        received: true
-    });
-
-
-
 //========================================
 // LISTAR MENSAGENS
 //========================================
