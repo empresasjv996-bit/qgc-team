@@ -14,27 +14,12 @@ const parserFicha = require("./parser");
 const app = express();
 
 app.use(cors());
+app.use(express.json());
+
 // ======================================
 // WEBHOOK SENDSEVEN
 // ======================================
-app.all("/webhook", (req, res) => {
 
-    console.log("==================================");
-    console.log("METHOD:", req.method);
-    console.log("URL:", req.originalUrl);
-    console.log("QUERY:", JSON.stringify(req.query, null, 2));
-
-    console.log("HEADERS:", JSON.stringify(req.headers, null, 2));
-    console.dir(req.headers, { depth: null });
-
-    console.log("BODY:", JSON.stringify(req.body, null, 2));
-    console.dir(req.body, { depth: null });
-
-    console.log("==================================");
-
-    res.status(200).send("OK");
-
-});
 //========================================
 // CONFIG
 //========================================
