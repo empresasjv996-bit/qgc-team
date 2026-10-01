@@ -454,27 +454,21 @@ mensagem:err.message
 //========================================
 app.post("/webhook", (req, res) => {
 
-    console.log("================================");
-    console.log("EVENT:", req.headers["x-sendseven-event"]);
-    console.log("HEADERS:", req.headers);
-    console.log("BODY:", req.body);
-    console.log("================================");
+    console.log(">>> WEBHOOK EXECUTADO <<<");
 
-    // Verificação inicial
-    if (req.headers["x-sendseven-event"] === "verification") {
+    return res.status(200).json({
+        success: true,
+        status: "ok",
+        timestamp: Date.now()
+    });
 
-        return res.status(200).json({
-            success: true
-        });
-
-    }
-
+});
     // Eventos normais
     return res.status(200).json({
         received: true
     });
 
-});
+
 
 //========================================
 // LISTAR MENSAGENS
