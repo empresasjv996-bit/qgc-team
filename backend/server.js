@@ -429,16 +429,13 @@ mensagem:err.message
 //========================================
 app.post("/webhook", (req, res) => {
 
-    const event = req.headers["x-sendseven-event"];
-
-    console.log("EVENT:", event);
+    console.log("HEADERS:", req.headers);
     console.log("BODY:", req.body);
 
-    return res.status(200).json({
-        success: true
-    });
+    return res.status(200).json(req.body);
 
 });
+
 //========================================
 // LISTAR MENSAGENS
 //========================================
