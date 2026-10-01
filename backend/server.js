@@ -12,6 +12,33 @@ const parserFicha = require("./parser");
 const app = express();
 
 app.use(cors());
+// ======================================
+// WEBHOOK SENDSEVEN
+// ======================================
+
+app.post("/webhook", async (req, res) => {
+
+    try {
+
+        console.log("========== WEBHOOK ==========");
+        console.log(JSON.stringify(req.body, null, 2));
+
+        res.status(200).json({
+            sucesso: true
+        });
+
+    } catch (erro) {
+
+        console.error(erro);
+
+        res.status(500).json({
+            sucesso: false,
+            erro: erro.message
+        });
+
+    }
+
+});
 app.use(express.json());
 
 const upload = multer({

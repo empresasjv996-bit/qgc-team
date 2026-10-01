@@ -1,6 +1,9 @@
 {
   "name": "qgc-team",
   "version": "2.0.0",
+  "engines": {
+    "node": "22.x"
+  },
   "description": "QGC TEAM Backend",
   "main": "server.js",
   "scripts": {
