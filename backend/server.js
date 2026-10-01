@@ -435,41 +435,75 @@ app.post("/webhook", (req, res) => {
 
         if (payload.type === "message.received") {
 
-            const contato = payload.data.contact;
-            const mensagem = payload.data.message;
+           const contato = payload.data.contact;
+const mensagem = payload.data.message;
 
-            let conversa = localizarConversa(contato.phone);
+// Procura conversa existente
+let conversa = db.prepare(`
+    SELECT *
+    FROM conversas
+    WHERE telefone = ?
+`).get(contato.phone);
 
-            if (!conversa) {
+// Se não existir, cria
+if (!conversa) {
 
-                const cliente = localizarClientePorTelefone(contato.phone);
+    const info = db.prepare(`
+        INSERT INTO conversas
+        (
+            telefone,
+            cliente_id,
+            ultima_mensagem,
+            status,
+            updated_at
+        )
+        VALUES (?, ?, ?, ?, ?)
+    `).run(
+        contato.phone,
+        null,
+        mensagem.text,
+        "aberta",
+        new Date().toISOString()
+    );
 
-                const conversaId = criarConversa(
-                    contato.phone,
-                    cliente ? cliente.id : null,
-                    mensagem.text
-                );
+    conversa = {
+        id: info.lastInsertRowid
+    };
 
-                conversa = {
-                    id: conversaId
-                };
+} else {
 
-            } else {
+    db.prepare(`
+        UPDATE conversas
+        SET
+            ultima_mensagem = ?,
+            updated_at = ?
+        WHERE id = ?
+    `).run(
+        mensagem.text,
+        new Date().toISOString(),
+        conversa.id
+    );
 
-                atualizarConversa(
-                    conversa.id,
-                    mensagem.text
-                );
+}
 
-            }
+// Salva a mensagem
+db.prepare(`
+    INSERT INTO mensagens
+    (
+        conversa_id,
+        tipo,
+        texto,
+        created_at
+    )
+    VALUES (?, ?, ?, ?)
+`).run(
+    conversa.id,
+    "cliente",
+    mensagem.text,
+    mensagem.created_at
+);
 
-            salvarMensagem(
-                conversa.id,
-                "cliente",
-                mensagem.text
-            );
-
-            console.log("Mensagem salva:", mensagem.text);
+console.log("Mensagem salva!");
 
         }
 
