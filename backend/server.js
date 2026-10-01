@@ -8,6 +8,9 @@ const path = require("path");
 const axios = require("axios");
 
 
+const db = require("./database");
+
+
 const upload = multer({
     dest: path.join(__dirname, "uploads")
 });
