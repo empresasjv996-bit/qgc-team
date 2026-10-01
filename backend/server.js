@@ -429,37 +429,66 @@ mensagem:err.message
 //========================================
 app.post("/webhook", (req, res) => {
 
-    console.log("HEADERS:", req.headers);
-    console.log("BODY:", req.body);
+    const payload = req.body;
 
-    return res.status(200).json(req.body);
+    try {
+
+        if (payload.type === "message.received") {
+
+            const contato = payload.data.contact;
+            const mensagem = payload.data.message;
+
+            let conversa = localizarConversa(contato.phone);
+
+            if (!conversa) {
+
+                const cliente = localizarClientePorTelefone(contato.phone);
+
+                const conversaId = criarConversa(
+                    contato.phone,
+                    cliente ? cliente.id : null,
+                    mensagem.text
+                );
+
+                conversa = {
+                    id: conversaId
+                };
+
+            } else {
+
+                atualizarConversa(
+                    conversa.id,
+                    mensagem.text
+                );
+
+            }
+
+            salvarMensagem(
+                conversa.id,
+                "cliente",
+                mensagem.text
+            );
+
+            console.log("Mensagem salva:", mensagem.text);
+
+        }
+
+        return res.json({
+            success: true
+        });
+
+    } catch (err) {
+
+        console.error(err);
+
+        return res.status(500).json({
+            success: false,
+            erro: err.message
+        });
+
+    }
 
 });
-
-//========================================
-// LISTAR MENSAGENS
-//========================================
-
-app.get("/mensagens/:id",(req,res)=>{
-
-    const conversaId = req.params.id;
-
-    const mensagens = db.prepare(`
-
-        SELECT *
-
-        FROM mensagens
-
-        WHERE conversa_id=?
-
-        ORDER BY id
-
-    `).all(conversaId);
-
-    res.json(mensagens);
-
-});
-
 //========================================
 // ENVIAR MENSAGEM
 //========================================
